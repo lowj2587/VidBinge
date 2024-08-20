@@ -64,6 +64,7 @@ export function Footer() {
       <WideContainer ultraWide classNames="grid md:grid-cols-2 gap-16 md:gap-8">
         <div>
           <div className="inline-block">
+            <p>Ms.Miller is a good math teacher</p>
             <BrandPill />
           </div>
           <p className="mt-4 lg:max-w-[400px]">{t("footer.tagline")}</p>

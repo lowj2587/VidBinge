@@ -71,7 +71,7 @@ export function Footer() {
           <h3 className="font-semibold text-type-emphasis">
             {t("footer.legal.disclaimer")}
           </h3>
-          <p className="mt-3">{t("footer.legal.disclaimerText")}</p>
+          <p className="mt-3">{t(made by jacob lowe)}</p>
         </div>
         <div className="flex flex-wrap gap-[0.5rem] -ml-3">
           <FooterLink icon={Icons.DISCORD} href={conf().DISCORD_LINK}>

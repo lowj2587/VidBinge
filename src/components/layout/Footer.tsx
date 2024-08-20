@@ -50,7 +50,6 @@ function Dmca() {
 
   return (
     <FooterLink to="/dmca" icon={Icons.DRAGON}>
-      <p>Made by Jacob Lowe</p>
       {t("footer.links.dmca")}
     </FooterLink>
   );
@@ -71,6 +70,7 @@ export function Footer() {
         </div>
         <div className="md:text-right text-balance">
           <h3 className="font-semibold text-type-emphasis">
+            <p>Made by Jacob Lowe</p>
             {t("footer.legal.disclaimer")}
           </h3>
           <p className="mt-3">{t("footer.legal.disclaimerText")}</p>

@@ -50,6 +50,7 @@ function Dmca() {
 
   return (
     <FooterLink to="/dmca" icon={Icons.DRAGON}>
+      <p>Made by Jacob Lowe</p>
       {t("footer.links.dmca")}
     </FooterLink>
   );
